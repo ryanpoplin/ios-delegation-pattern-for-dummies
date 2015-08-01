@@ -26,8 +26,8 @@ for i = 0; i < values.count; ++i {
 println(maxValue)
 println(minValue)
 // if an algorithm performs g(N) steps for each of f(N) steps, then it is O(f(N)*g(N))
-var values2 = [20, 21, 22, 23, 24, 25, 80, 32]
-var values3 = [20, 30, 40, 50, 60, 70, 80, 32]
+let values2 = [20, 21, 22, 23, 24, 25, 80, 32]
+let values3 = [20, 30, 40, 50, 60, 70, 80, 32]
 // var values4 = [20, 30, 40, 50, 60, 70, 80, 32]
 var j: Int, k: Int
 var identicalValues = [Int]()
@@ -43,3 +43,22 @@ for j = 0; j < values2.count; ++j {
 // ignore constant multiples
 // O(C*f(N)) = O(f(N))
 // O(f(C*N)) = O(f(N))
+// difference in development complexity for:
+/*
+- O(Log N)
+- O(squareroot of N)
+- N
+- Nsquared
+- 2n
+- N!(factorial)
+*/
+
+// does P = NP?
+
+
+let gen = [0, 18, 23, 2, 53, 52, 89, 78]
+var l: Int
+for var l = 0; l < gen.count; ++l {
+	println(gen[l] % gen.count)
+}
+
