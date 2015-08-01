@@ -52,8 +52,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="clickItButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mNX-8O-6is"/>
-                                    <segue destination="s3A-qE-vIE" kind="push" id="EvE-e8-4Cg"/>
+                                    <segue destination="s3A-qE-vIE" kind="push" id="dye-vW-AgK"/>
                                 </connections>
                             </button>
                         </subviews>

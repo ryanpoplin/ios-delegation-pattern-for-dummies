@@ -12,10 +12,6 @@ class ViewController: UIViewController, ClassCommunicationDelegate {
 	
 	@IBOutlet weak var delegationTextLabel: UILabel!
 	
-	@IBAction func clickItButton(sender: UIButton) {
-		println("You clicked it!")
-	}
-	
 	override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
 		let publishingViewController = segue.destinationViewController as! ViewControllerTwo
 		if publishingViewController.delegate == nil {

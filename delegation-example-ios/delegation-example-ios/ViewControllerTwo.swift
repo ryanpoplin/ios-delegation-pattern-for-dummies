@@ -16,7 +16,7 @@ class ViewControllerTwo: UIViewController {
 
 	var delegate: ClassCommunicationDelegate?
 	
-	@IBOutlet weak var delegationTextField: UITextField!
+	@IBOutlet var delegationTextField: UITextField!
 	
 	@IBAction func delegateIt(sender: UIButton) {
 		if delegate != nil {

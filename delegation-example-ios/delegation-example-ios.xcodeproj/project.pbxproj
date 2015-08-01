@@ -40,6 +40,7 @@
 		5A3E9C551B687C8E007244AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5A3E9C561B687C8E007244AA /* delegation_example_iosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = delegation_example_iosTests.swift; sourceTree = "<group>"; };
 		5A3E9C601B687CAB007244AA /* ViewControllerTwo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerTwo.swift; sourceTree = "<group>"; };
+		5A3E9C621B6CA557007244AA /* data-structures-and-algorithms.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "data-structures-and-algorithms.playground"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +90,7 @@
 				5A3E9C491B687C8E007244AA /* LaunchScreen.xib */,
 				5A3E9C3F1B687C8E007244AA /* delegation_example_ios.xcdatamodeld */,
 				5A3E9C3B1B687C8E007244AA /* Supporting Files */,
+				5A3E9C621B6CA557007244AA /* data-structures-and-algorithms.playground */,
 			);
 			path = "delegation-example-ios";
 			sourceTree = "<group>";
